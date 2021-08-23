@@ -63,6 +63,7 @@ interface IPlaidBase : IContextBase {
                         .setRequireName(true).build(),
                     AuthUI.IdpConfig.GoogleBuilder()
                         .build(),
+                    AuthUI.IdpConfig.PhoneBuilder().build(),
                 )
             )
             .build()
